@@ -9,11 +9,12 @@ public class dataType {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
-        double total =0;
+        int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
-            total += numbers[i];
+            sum = numbers[0] + numbers[2];
         }
-        System.out.println("numbers" +total);
+        System.out.println(sum);
     }
 }
+
 
